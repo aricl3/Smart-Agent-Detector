@@ -5,7 +5,7 @@ An AI-powered smart contract security analysis system that detects honeypots and
 ## Demo
 
 ### Video Demonstration
-[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/4xzw-6WYDWg)
 
 ### Screenshots
 

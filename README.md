@@ -7,23 +7,39 @@ An AI-powered smart contract security analysis system that detects honeypots and
 ### Video Demonstration
 [![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
-*Add your demonstration video link here*
-
 ### Screenshots
 
-#### Main Detection Interface
-![Main Interface](docs/images/main_interface.png)
+#### Main Interface Display
 
-#### Detection Results
-![Detection Results](docs/images/detection_results.png)
+![Main Interface](pic/main_interface.png)
 
-#### Real-time Progress
-![Progress Display](docs/images/progress_display.png)
+The main detection interface showing the input area, configuration options, and start detection controls.
 
-#### Detailed Reports
-![Detailed Reports](docs/images/detailed_reports.png)
+#### Non-Hit Database Running Results
 
-*Add your screenshot images here*
+![Non-Hit Results](pic/nonhit_database_results.png)
+
+Display of analysis results when the contract is not found in the database, showing full AI analysis process.
+
+#### Hit Database Running Results
+
+![Hit Results](pic/hit_database_results.png)
+
+Display of analysis results when the contract matches existing database records, showing cached results and quick reference information.
+
+#### Background Processing Log Display
+
+![Processing Logs](pic/background_logs_1.png)
+![Processing Logs](pic/background_logs_2.png)
+![Processing Logs](pic/background_logs_3.png)
+
+Real-time background processing logs showing the detection workflow, model inference steps, and system status updates.
+
+#### RAG Query Process Display
+
+![RAG Query Process](pic/rag_query_process.png)
+
+Detailed view of the RAG (Retrieval-Augmented Generation) query process, including vector search, context retrieval, and AI reasoning steps.
 
 ## Features
 
@@ -90,9 +106,11 @@ For questions or suggestions:
 ## Changelog
 
 ### v2.0.1 (2024-10-24)
+
 - Enhanced detection accuracy
 - Improved user interface
 - Better performance and reliability
+- Front-end interface display
 
 ### v2.0.0 (2024-09-22)
 - Advanced AI detection capabilities
